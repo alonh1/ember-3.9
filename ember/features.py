@@ -508,6 +508,7 @@ class PEFeatureExtractor(object):
                     'ImportsInfo': ImportsInfo(),
                     'ExportsInfo': ExportsInfo()
             }
+        print(f"WARNING: Custom version of EMBER being in use")
 
         if os.path.exists(features_file):
             with open(features_file, encoding='utf8') as f:
